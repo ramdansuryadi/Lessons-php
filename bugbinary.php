@@ -1,7 +1,5 @@
-
-
 <?php
-function solution(&$A, $X) {
+function solution($A, $X) {
     $N = sizeof($A);
     if ($N == 0) {
         return -1;
@@ -22,6 +20,7 @@ function solution(&$A, $X) {
     else return -1;
 }
 
-$A = array(3,2,-6,3,1);
-solution($A);
+$A = array(1,2,5,9,9);
+$X = 5;
+echo solution($A, $X);
 ?>
